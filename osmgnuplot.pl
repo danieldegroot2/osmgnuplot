@@ -443,10 +443,10 @@ osmgnuplot.pl - Download OSM tiles, and make a gnuplot script to render them
 =head1 SYNOPSIS
 
  $ osmgnuplot.pl --center 34.094719,-118.235779 --rad 300m --zoom 16
- Downloading http://tile.openstreetmap.org/16/11243/26158.png
- Downloading http://tile.openstreetmap.org/16/11244/26158.png
- Downloading http://tile.openstreetmap.org/16/11243/26159.png
- Downloading http://tile.openstreetmap.org/16/11244/26159.png
+ Downloading https://tile.openstreetmap.org/16/11243/26158.png
+ Downloading https://tile.openstreetmap.org/16/11244/26158.png
+ Downloading https://tile.openstreetmap.org/16/11243/26159.png
+ Downloading https://tile.openstreetmap.org/16/11244/26159.png
  Done! Gnuplot script 'montage_34.094719_-118.235779_300m_16.gp' uses the image 'montage_34.094719_-118.235779_300m_16.png'
 
  $ gnuplot -persist montage_34.094719_-118.235779_300m_16.gp
@@ -530,7 +530,7 @@ The OSM zoom level
 =item --serverpath <url>
 
 The base URL to grab tiles from. We default to the OSM tile server:
-C<http://tile.openstreetmap.org>
+C<https://tile.openstreetmap.org>
 
 =for Euclid:
   url.type: string
